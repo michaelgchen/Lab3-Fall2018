@@ -7,7 +7,7 @@ public class WebScraper {
         System.out.println("Ran");
         System.out.println(urlToString("http://erdani.com/tdpl/hamlet.txt"));
         String urlString = urlToString("http://erdani.com/tdpl/hamlet.txt");
-        System.out.println(countString(urlString, "Ham."));
+        System.out.println(countString(urlString, "Hamlet"));
     }
     /**
      * Retrieve contents from a URL and return them as a string.
